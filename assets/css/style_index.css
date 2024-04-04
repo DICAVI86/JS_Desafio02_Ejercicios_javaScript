@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.boton {
+    background-color: blue;
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: rgb(95, 95, 250);
+}
+
+.boton a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.botonera {
+    display: flex;
+    justify-content: center;
+}
