@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div img {
+    height: 50vh;
+    border: none;
+}
