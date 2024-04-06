@@ -15,23 +15,23 @@
 
         <div class="card">
             <div class="sticker">
-                <img src="./assets/img/sticker_sun.png" alt="sticker de un sol con cara">
+                <img src="./assets/img/sticker_sun.png" alt="sticker de una nube con ojos y pies">
             </div>
-            <p>Crazy Sun</p>
+            <p>Sun</p>
             <section class="cantidadStickers">
-                <input list="numeros" placeholder="0">
-                <datalist id="numeros">
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                    <option value="6"></option>
-                    <option value="7"></option>
-                    <option value="8"></option>
-                    <option value="9"></option>
-                    <option value="10"></option>
-                </datalist>
+                <select id="sunCant">
+                    <option value="default">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
             </section>
         </div>
 
@@ -39,49 +39,54 @@
             <div class="sticker">
                 <img src="./assets/img/sticker_cloud.png" alt="sticker de una nube con ojos y pies">
             </div>
-            <p>Crazy Sun</p>
+            <p>cloud</p>
             <section class="cantidadStickers">
-                <input list="numeros" placeholder="0">
-                <datalist id="numeros">
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                    <option value="6"></option>
-                    <option value="7"></option>
-                    <option value="8"></option>
-                    <option value="9"></option>
-                    <option value="10"></option>
-                </datalist>
+                <select id="cloudCant">
+                    <option value="default">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
             </section>
         </div>
 
         <div class="card">
             <div class="sticker">
-                <img src="./assets/img/sticker_icecream.png" alt="sticker de un sol con cara">
+                <img src="./assets/img/sticker_icecream.png" alt="sticker de una nube con ojos y pies">
             </div>
-            <p>Crazy Sun</p>
+            <p>ice</p>
             <section class="cantidadStickers">
-                <input list="numeros" placeholder="0">
-                <datalist id="numeros">
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                    <option value="6"></option>
-                    <option value="7"></option>
-                    <option value="8"></option>
-                    <option value="9"></option>
-                    <option value="10"></option>
-                </datalist>
+                <select id="iceCant">
+                    <option value="default">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
             </section>
         </div>
 
     </main>
 
-    <p class="mensaje">Mensaje para el cliente</p>
+    <div class="boton">
+        <button id="boton" onclick="cantidadStickers()">Llevar</button>
+    </div>
+
+    <p id="mensaje">HOLA! Selecciona cuantos stickers quieres llevar de cada uno</p>
     
+    <script src="./assets/js/script_ej02.js"></script>
 </body>
 </html>

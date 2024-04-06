@@ -1,8 +1,15 @@
-/* function agregarBordes() {
-    foto = document.querySelector("img");
-    fotoBordes = foto.style.border = 2px solid red;
+function agregarBordes() {
 
-    if (foto != fotoBorder) {
-        
-    }
-} */
+    bordeOn = document.querySelector("img");
+
+    bordeOn.style.border = "3px solid red";
+}
+
+function quitarBordes() {
+
+    bordeOff = document.querySelector("img");
+
+    bordeOff.style.border = "none";
+}
+
+    
