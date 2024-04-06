@@ -1,15 +1,15 @@
-function agregarBordes() {
+function cambiarBorde() {
 
-    bordeOn = document.querySelector("img");
-
-    bordeOn.style.border = "3px solid red";
+    imagen = document.getElementById("bongo");
+    
+    if (imagen.classList.contains("bordeRojo")) {
+        imagen.classList.remove("bordeRojo");
+    } else {
+        imagen.classList.add("bordeRojo");
+    }
+    
 }
 
-function quitarBordes() {
 
-    bordeOff = document.querySelector("img");
-
-    bordeOff.style.border = "none";
-}
 
     

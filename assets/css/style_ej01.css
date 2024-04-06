@@ -14,7 +14,10 @@ div {
     justify-content: center;
 }
 
-div img {
+#bongo {
     height: 50vh;
-    border: none;
+}
+
+.bordeRojo {
+    border: 5px solid red;
 }
