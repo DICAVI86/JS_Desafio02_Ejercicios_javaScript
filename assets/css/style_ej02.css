@@ -71,3 +71,7 @@ main {
     margin: 15px;
     padding: 10px 20px;
 }
+
+#boton:hover {
+    background-color: rgb(1, 61, 77);
+}
