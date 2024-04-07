@@ -15,57 +15,71 @@
 
     <div class="password">
         <div class="numeros">
-            <input type="text" list="number">
-            <datalist id="number">
-                <option value="0"></option>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-            </datalist>
+            <section class="codigo">
+                <select id="codigo1">
+                    <option value="default">-</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </section>
         </div>
+
         <div class="numeros">
-            <input type="text" list="number">
-            <datalist id="number">
-                <option value="0"></option>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-            </datalist>
+            <section class="codigo">
+                <select id="codigo2">
+                    <option value="default">-</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </section>
         </div>
+
         <div class="numeros">
-            <input type="text" list="number">
-            <datalist id="number">
-                <option value="0"></option>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-            </datalist>
+            <section class="codigo">
+                <select id="codigo3">
+                    <option value="default">-</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </section>
         </div>
+       
+        
     </div>
 
     <div class="boton">
-        <button>
+        <button type="button"  onclick="validarPassword()">
             validar
         </button>
     </div>
+
+    <p id="mensaje"></p>
+
+    <script src="./assets/js/script_ej03.js"></script>
     
 </body>
 </html>
